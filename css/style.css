@@ -1,0 +1,63 @@
+body {
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2em;
+	color: #242600;
+	-webkit-font-smoothing: antialiased;
+	background-image: url("background.jpg");
+}
+h1 {
+	font-family: 'Cookie', cursive;
+	font-size: 4rem;
+	letter-spacing: 0.1em;
+}
+div {
+	background-color: rgba(169, 178, 0, 0.6);
+	max-width: 40em;
+	margin: 0 auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.shopping-list {
+	max-width: 40em;
+	margin: 0 auto;
+}
+.example-list {
+	list-style-type: none;
+	margin-left: -1.2em;
+}
+.example-list li {
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	width: 20em;
+	padding: 0.2em;
+}
+.add {
+	background-color: #242600;
+	color: #A9B200;
+}
+.item-bought, .item {
+	background-color: #A9B200;
+	color: #242600;
+}
+.item-bought {
+	text-decoration: line-through;
+}
+i {
+	margin: 2.5px;
+}
+.footer {
+	padding-top: 4px;
+}
+h3 {
+	font-size: 1em;
+}
+a, a:visited {
+	text-decoration: none;
+	color: #242600;
+}
+a:hover {
+	color: #303300;
+}
