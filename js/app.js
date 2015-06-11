@@ -4,7 +4,7 @@ $(document).ready(function() {
 	
     // User can use "enter" key to work as a submit button
 	function getItem() {
-		$('#add-items').keydown(function(e) {
+		$('input#add-items').keydown(function(e) {
 			if (e.keyCode == 13) {
 				postItem();
 			}
@@ -16,7 +16,7 @@ $(document).ready(function() {
 		var item = $('input#add-items').val();
 		var work = '<li class="item"><button class="done"><i class="fa fa-check"></i></button>' + item + '<button class="remove"><i class="fa fa-times"></i></button>' + '</li>';
 		$('.list-area').prepend(work);
-		$('.add-items').val('');
+		$('input#add-items').val('');
 		$('.list-area li:first-child')
         .css("opacity", "0")
         .css("margin-top", "-20px")
