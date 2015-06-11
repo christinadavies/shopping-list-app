@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	// Global variables
+	var submissions = 0;
+	
     // User can use "enter" key to work as a submit button
 	function getItem() {
 		$('#add-items').keydown(function(e) {
