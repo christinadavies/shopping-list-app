@@ -6,19 +6,16 @@
 	<link href='css/style.css' rel='stylesheet'>
 	<meta charset="UTF-8">
 	<title>Shopping List</title>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 	<section class="header">
 		<h1>Shopping List</h1>
 	<section class="shopping-list">
-		<ul class="example-list">
-		<li class="add">+ Add items to your list here</li>
-		<li class="item-bought"><i class="fa fa-check-square pull-left"></i>1% milk<i class="fa fa-times pull-right"></i></li>
-		<li class="item"><i class="fa fa-square-o pull-left"></i>Whole-wheat bread<i class="fa fa-times pull-right"></i></li>
-		<li class="item"><i class="fa fa-square-o pull-left"></i>Chicken breast<i class="fa fa-times pull-right"></i></li>
-		<li class="item"><i class="fa fa-square-o pull-left"></i>Eggs<i class="fa fa-times pull-right"></i></li>
-		</ul>
+		<input id="add-items" type="text" name="add-items" autocomplete="off" placeholder="+ Add items to your shopping list">
+		<ul class="list-area"></ul>
 	</section>
 	<section class="footer">
 		<h3>Created by <a href="http://christinadavies.github.io/christina-davies-portfolio/index.html" target="_blank">Christina Davies</a></h3>

@@ -2,7 +2,7 @@ body {
 	text-align: center;
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.2em;
-	color: #242600;
+	color: #0E0E0E;
 	-webkit-font-smoothing: antialiased;
 	background-image: url("background.jpg");
 }
@@ -12,11 +12,12 @@ h1 {
 	letter-spacing: 0.1em;
 }
 div {
-	background-color: rgba(169, 178, 0, 0.6);
+	background-color: rgba(242, 242, 242, 0.6);
 	max-width: 40em;
 	margin: 0 auto;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	border: 8px solid #0E0E0E;
 }
 .shopping-list {
 	max-width: 40em;
@@ -34,19 +35,32 @@ div {
 	width: 20em;
 	padding: 0.2em;
 }
-.add {
-	background-color: #242600;
-	color: #A9B200;
+input[type="text"] {
+	background-color: #0E0E0E;
+	color: #F2F2F2;
+	border-radius: 10px;
+	border: 1px solid #0E0E0E;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	width: 20em;
+	padding: 0.2em;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
 }
 .item-bought, .item {
-	background-color: #A9B200;
-	color: #242600;
+	background-color: #F2F2F2;
+	color: #0E0E0E;
+	width: 20em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	border-radius: 10px;
+	list-style-type: none;
+	padding: 0.2em;
 }
 .item-bought {
 	text-decoration: line-through;
-}
-i {
-	margin: 2.5px;
 }
 .footer {
 	padding-top: 4px;
@@ -56,8 +70,23 @@ h3 {
 }
 a, a:visited {
 	text-decoration: none;
-	color: #242600;
+	color: #0E0E0E;
 }
 a:hover {
-	color: #303300;
+	color: #404040;
+}
+button {
+	background-color: #F2F2F2;
+	color: #0E0E0E;
+	border: 1px solid #F2F2F2;
+	font-size: 1em;
+	border-radius: 10px;
+}
+.done {
+	float: left;
+	padding-top: 1px;
+}
+.remove {
+	float: right;
+	padding-top: 1px;
 }
